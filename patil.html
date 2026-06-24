@@ -1,0 +1,74 @@
+DOCTYPE html>
+<html>
+<head>
+  <title>University Result Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+      width: 300px;
+      text-align: left;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #28a745;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #218838;
+    }
+    .captcha {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+      background: #eee;
+      padding: 5px;
+      text-align: center;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .logo img {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <!-- इथे image add केली आहे -->
+      <img src="logo.png" alt="University Logo">
+    </div>
+    <h3>Savitribai Phule Pune University</h3>
+    <label>Enter Seat No:</label>
+    <input type="text" placeholder="Seat No">
+    <label>Enter Mother's Name:</label>
+    <input type="text" placeholder="Mother's Name">
+    <label>Enter the CAPTCHA:</label>
+    <div class="captcha">20289</div>
+    <input type="text" placeholder="Enter CAPTCHA">
+    <button>Submit</button>
+  </div>
+</body>
